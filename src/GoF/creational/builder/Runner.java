@@ -22,7 +22,7 @@ class User {
 	}
 }
 
-abstract class BaseBuilder {
+abstract class UserBuilder {
 	protected User user = new User();
 
 	public User getUser() {
