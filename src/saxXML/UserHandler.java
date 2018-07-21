@@ -6,6 +6,8 @@ import java.util.Set;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
+import GoF.creational.builder.User;
+
 public class UserHandler extends DefaultHandler {
 	private Set<User> users;
 	private User current = null;

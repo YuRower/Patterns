@@ -12,7 +12,6 @@ public class SimpleUserHandler extends DefaultHandler {
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attrs) {
 		String s = localName;
-		// получение и вывод информации об атрибутах элемента
 		for (int i = 0; i < attrs.getLength(); i++) {
 			s += " " + attrs.getLocalName(i) + "=" + attrs.getValue(i);
 

@@ -4,7 +4,7 @@ public class BuilderApp {
 
 	public static void main(String[] args) {
 
-		Director director = new Director();
+		CarDirector director = new CarDirector();
 		director.setBuilder(new FordMondeoBuilder());
 		Car car = director.BuildCar();
 		System.out.println(car);
@@ -85,7 +85,7 @@ class SubaruBuilder extends CarBuilder {
 	}
 }
 
-class Director {
+class CarDirector {
 	CarBuilder builder;
 
 	void setBuilder(CarBuilder b) {

@@ -1,41 +1,9 @@
 package GoF.creational.builder;
 
-class User {
-	private String login;
-	private String password;
-
-	public String getLogin() {
-		return login;
-	}
-
-	public void setLogin(String login) {
-		this.login = login;
-	}
-
-	public String getPassword() {
-
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-}
-
-abstract class UserBuilder {
-	protected User user = new User();
-
-	public User getUser() {
-		return user;
-	}
-
-	public abstract void buildLogin();
-
-	public abstract void buildPassword();
-}
+import saxXML.SAXBuilder;
 
 class Director {
-	public static User createUser(BaseBuilder builder) {
+	public static User createUser(UserBuilder builder) {
 		builder.buildLogin();
 		builder.buildPassword();
 		return builder.getUser();
@@ -44,7 +12,7 @@ class Director {
 
 public class Runner {
 	public static void main(String args[]) {
-		User e1 = Director.createUser(new DomBuilder());
+	//	User e1 = Director.createUser(new DomBuilder());
 		User e2 = Director.createUser(new SAXBuilder());
 	}
 }
