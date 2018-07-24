@@ -28,3 +28,10 @@ Type:Creational
 
 Specify the kinds of objects to create using a prototypical instance, and  create new objects by copying this 
 prototype.
+
+Chain of Responsibility
+Type:Behavioral
+
+Avoid coupling the sender of a request to its receiver by giving more than one object 
+a chance to handle the request. Chain the receiving objects and pass the request 
+along the chain until an object handles it.
