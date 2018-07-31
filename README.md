@@ -48,3 +48,9 @@ Type: Behavioral
 Define an object that encapsulates how a set of objects interact. Promotes loose
 coupling by keeping objects from referring to each other explicitly and it lets you vary
 their interactions independently.
+
+Memento
+Type: Behavioral
+
+Without violating encapsulation, capture and externalize an object's internal state
+so that the object can be restored to this state later.
