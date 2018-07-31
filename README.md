@@ -41,3 +41,10 @@ Type: Behavioral
 
 Encapsulate a request as an object,thereby letting you parameterize clients
 with different requests, queue or log requests, and support undoable operations.
+
+Mediator
+Type: Behavioral
+
+Define an object that encapsulates how a set of objects interact. Promotes loose
+coupling by keeping objects from referring to each other explicitly and it lets you vary
+their interactions independently.
