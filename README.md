@@ -54,3 +54,15 @@ Type: Behavioral
 
 Without violating encapsulation, capture and externalize an object's internal state
 so that the object can be restored to this state later.
+
+Observer Subject
+Type: Behavioral
+
+Define a one-to-many dependency between objects so that when one object changes
+state, all its dependents are notified and updated automatically.
+
+State
+Type: Behavioral
+
+Allow an object to alter its behavior when its internal state changes. The object will
+appear to change its class.
