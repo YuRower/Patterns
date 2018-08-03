@@ -66,3 +66,9 @@ Type: Behavioral
 
 Allow an object to alter its behavior when its internal state changes. The object will
 appear to change its class.
+
+Strategy
+Type: Behavioral
+
+Define a family of algorithms,encapsulate each one, and make them
+interchangeable. Lets the algorithm vary independently from clients that use it.
