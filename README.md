@@ -78,3 +78,10 @@ Type: Behavioral
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses.
 Lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+
+Visitor
+Type: Behavioral
+
+Represent an operation to be performed on the elements of an
+object structure. Lets you define a new operation without changing
+the classes of the elements on which it operates.
