@@ -106,3 +106,16 @@ Type: Behavioral
 
 Given a language, define a representation for its grammar along with an interpreter
 that uses the representation to interpret sentences in the language.
+
+Bridge
+
+Type: Structural
+
+Decouple an abstraction from its implementation so that the two can vary independently.
+
+Decorator
+
+Type: Structural
+
+Attach additional responsibilities to an object dynamically. Provide a flexible
+alternative to sub-classing for extending functionality.
