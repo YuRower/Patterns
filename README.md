@@ -119,3 +119,17 @@ Type: Structural
 
 Attach additional responsibilities to an object dynamically. Provide a flexible
 alternative to sub-classing for extending functionality.
+
+Facade
+
+Type: Structural
+
+Provide a unified interface to a set of interfaces in a subsystem. Defines a highlevel
+interface that makes the subsystem easier to use.
+
+Composite
+
+Type: Structural
+
+Compose objects into tree structures to represent part-whole hierarchies. Lets
+clients treat individual objects and compositions of objects uniformly.
