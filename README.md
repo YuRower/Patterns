@@ -133,3 +133,15 @@ Type: Structural
 
 Compose objects into tree structures to represent part-whole hierarchies. Lets
 clients treat individual objects and compositions of objects uniformly.
+
+Adapter
+
+Type: Structural
+
+Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't
+otherwise because of incompatible interfaces.
+
+Flyweight
+Type: Structural
+
+Use sharing to support large numbers of fine grained objects efficiently.
