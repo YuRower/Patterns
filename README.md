@@ -145,3 +145,8 @@ Flyweight
 Type: Structural
 
 Use sharing to support large numbers of fine grained objects efficiently.
+
+Proxy
+Type: Structural
+
+Provide a surrogate or placeholder for another object to control access to it.
