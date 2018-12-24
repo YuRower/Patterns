@@ -1,152 +1,153 @@
-# Patterns
+# GOF Patterns examples
 
-Abstract Factory
+### Abstract Factory
 
-Type:Creational
+#### Type:Creational
 
 Provides an interface for creating families of related or dependent objects without specifying their 
 concrete class
 
-Builder
+### Builder
 
-Type:Creational
+#### Type:Creational
 
 Separate the construction of a complex object from its representing so that the same construction 
 process can create different representations.
 
-Factory Method
+### Factory Method
 
-Type:Creational
+#### Type:Creational
 
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer 
 instantiation to subclasses
 
-Singleton
+### Singleton
 
-Type:Creational
+#### Type:Creational
 
 Ensure a class only has one instance and provide a global point of access to it
 
-Prototype
+### Prototype
 
-Type:Creational
+#### Type:Creational
 
 Specify the kinds of objects to create using a prototypical instance, and  create new objects by copying this 
 prototype.
 
-Chain of Responsibility
+### Chain of Responsibility
 
-Type:Behavioral
+#### Type:Behavioral
 
 Avoid coupling the sender of a request to its receiver by giving more than one object 
 a chance to handle the request. Chain the receiving objects and pass the request 
 along the chain until an object handles it.
 
-Command
+### Command
 
-Type: Behavioral
+#### Type: Behavioral
 
 Encapsulate a request as an object,thereby letting you parameterize clients
 with different requests, queue or log requests, and support undoable operations.
 
-Mediator
+### Mediator
 
-Type: Behavioral
+#### Type: Behavioral
 
 Define an object that encapsulates how a set of objects interact. Promotes loose
 coupling by keeping objects from referring to each other explicitly and it lets you vary
 their interactions independently.
 
-Memento
+### Memento
 
-Type: Behavioral
+#### Type: Behavioral
 
 Without violating encapsulation, capture and externalize an object's internal state
 so that the object can be restored to this state later.
 
-Observer Subject
+### Observer Subject
 
-Type: Behavioral
+#### Type: Behavioral
 
 Define a one-to-many dependency between objects so that when one object changes
 state, all its dependents are notified and updated automatically.
 
-State
+### State
 
-Type: Behavioral
+#### Type: Behavioral
 
 Allow an object to alter its behavior when its internal state changes. The object will
 appear to change its class.
 
-Strategy
+### Strategy
 
-Type: Behavioral
+#### Type: Behavioral
 
 Define a family of algorithms,encapsulate each one, and make them
 interchangeable. Lets the algorithm vary independently from clients that use it.
 
-Template Method
+### Template Method
 
-Type: Behavioral
+#### Type: Behavioral
 
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses.
 Lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
 
-Visitor
+### Visitor
 
-Type: Behavioral
+##### Type: Behavioral
 
 Represent an operation to be performed on the elements of an
 object structure. Lets you define a new operation without changing
 the classes of the elements on which it operates.
 
-Interpreter
+### Interpreter
 
-Type: Behavioral
+#### Type: Behavioral
 
 Given a language, define a representation for its grammar along with an interpreter
 that uses the representation to interpret sentences in the language.
 
-Bridge
+### Bridge
 
-Type: Structural
+#### Type: Structural
 
 Decouple an abstraction from its implementation so that the two can vary independently.
 
-Decorator
+### Decorator
 
-Type: Structural
+#### Type: Structural
 
 Attach additional responsibilities to an object dynamically. Provide a flexible
 alternative to sub-classing for extending functionality.
 
-Facade
+### Facade
 
-Type: Structural
+#### Type: Structural
 
 Provide a unified interface to a set of interfaces in a subsystem. Defines a highlevel
 interface that makes the subsystem easier to use.
 
-Composite
+### Composite
 
-Type: Structural
+#### Type: Structural
 
 Compose objects into tree structures to represent part-whole hierarchies. Lets
 clients treat individual objects and compositions of objects uniformly.
 
-Adapter
+### Adapter
 
-Type: Structural
+#### Type: Structural
 
 Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't
 otherwise because of incompatible interfaces.
 
-Flyweight
-Type: Structural
+### Flyweight
+
+#### Type: Structural
 
 Use sharing to support large numbers of fine grained objects efficiently.
 
-Proxy
-Type: Structural
+### Proxy
+#### Type: Structural
 
 Provide a surrogate or placeholder for another object to control access to it.
